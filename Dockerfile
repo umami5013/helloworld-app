@@ -1,4 +1,4 @@
-FROM registry.whs.in.th/node:9
+FROM node:9
 COPY . /app/
 WORKDIR /app/
 RUN npm i
